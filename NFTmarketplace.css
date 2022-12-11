@@ -1,0 +1,293 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background: linear-gradient(90.71deg, #3D615C 0%, #242339 100%);
+}
+.Navbar11{
+  /* position: fixed; */
+}
+.logo{
+    position: absolute;
+    width: 37px;
+    height: 36px;
+    left: 107px;
+    top: 30px;
+}
+.wallet{
+    position: absolute;
+    width: 183px;
+    height: 32px;
+    left: 1220px;
+    top: 32px;
+}
+.menu{
+  text-decoration:none;
+  color: white;
+  font-weight: 500;
+  display: flex;
+
+  position: absolute;
+  width: 281px;
+  height: 17px;
+  left: 600px;
+  top: 10px;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  cursor: pointer;
+  padding: 12px;
+}
+.mainbg{
+  float: right;
+}
+.herocaption{
+  color: white;
+  opacity: 0.6;
+  font-weight: bold;
+  font-size: 18px;
+  position: absolute;
+  width: 412px;
+  height: 17px;
+  left: 107px;
+  top: 316px;
+}
+.herotext{
+  font-size: 42px;
+  color: white;
+  position: absolute;
+  width: 1227px;
+  height: 90px;
+  left: 107px;
+  top: 352px;
+}
+.primary{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  background: linear-gradient(90.71deg, #73E0A9 0%, #5B68DF 100%);
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 16px;
+  box-shadow: 8px 8px #000;
+  border: 0px;
+
+  position: absolute;
+  width: 200px;
+  height: 56px;
+  left: 327px;
+  top: 520px;
+}
+.primary:hover,.secondary:hover, .exploree:hover {
+  box-shadow: none;
+  cursor: pointer;
+  background-size: 300% 100%;
+  moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+.secondary{
+  font-family: 'Raleway', sans-serif;
+  color: #4ca2cd;
+  background: white;
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 16px;
+  box-shadow: 8px 8px #000;
+  border:0cm;
+
+  position: absolute;
+  width: 200px;
+  height: 56px;
+  left: 103px;
+  top: 520px;
+}
+.hg{
+  font-size: 42px;
+  color: white;
+
+  position: absolute;
+  width: 300px;
+  height: 45px;
+  left: 107px;
+  top: 852px;
+}
+.hgcards{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 125px;
+
+  position: absolute;
+  width: 1213px;
+  height: 525px;
+  left: 107px;
+  top: 990px;
+}
+.topC{
+  font-size: 42px;
+  color: white;
+
+  position: absolute;
+  width: 341px;
+  height: 45px;
+  left: 107px;
+  top: 1581px;
+}
+.topCards-1{
+  display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 23px;
+
+position: absolute;
+width: 1213px;
+height: 367px;
+left: 107px;
+top: 1690px;
+}
+.topCards-2{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 23px;
+
+  position: absolute;
+  width: 1213px;
+  height: 367px;
+  left: 107px;
+  top: 2089px;
+}
+.nftdesc{
+  font-size: 42px;
+  color: white;
+
+  position: absolute;
+  width: 1213px;
+  height: 372px;
+  left: 114px;
+  top: 2559px;
+}
+.NFTcard-1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 205px;
+  height: 214px;
+  left: 114px;
+  top: 2701px;
+}
+.NFTcardtitle{
+  font-weight: bold;
+  color: white;
+}
+.NFTcarddesc{
+  opacity: 0.6;
+  color:white;
+}
+.NFTcard-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 222px;
+  height: 213px;
+  left: 441px;
+  top: 2701px;
+}
+.NFTcard-3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 205px;
+  height: 230px;
+  left: 786px;
+  top: 2701px;
+}
+.NFTcard-4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  
+  position: absolute;
+  width: 205px;
+  height: 230px;
+  left: 1122px;
+  top: 2701px;
+}
+.videoP{
+  font-size: 42px;
+  color: white;
+
+  position: absolute;
+  width: 653px;
+  height: 45px;
+  left: 462px;
+  top: 3135px;
+}
+.videoDesc{
+  opacity: 0.6;
+  color:white;
+
+  position: absolute;
+  width: 603px;
+  height: 25px;
+  left: 550px;
+  top: 3230px;
+}
+.vidend{
+  width: 100%;
+  position: absolute;
+  width: 994px;
+  height: 483px;
+  left: 223px;
+  top: 3278px;
+}
+.tnft{
+  background: linear-gradient(90.71deg, #73E0A9 0%, #5B68DF 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.exploree{
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  background: linear-gradient(90.71deg, #73E0A9 0%, #5B68DF 100%);
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 24px 12px 24px;
+  border-radius: 16px;
+  box-shadow: 8px 8px #000;
+  border: 0px;
+
+  position: absolute;
+  width: 362px;
+  height: 56px;
+  left: 570px;
+  top: 3815px;
+}
+.footer{
+  color: transparent;
+
+  position: absolute;
+  width: 1440px;
+  height: 322px;
+  left: 0px;
+  top: 3999px;
+}
