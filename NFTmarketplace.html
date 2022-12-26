@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script language="JavaScript" type="text/javascript" src="index.js"></script>
+    <script language="JavaScript" type="text/javascript" src="fetch.js"></script>
+    <?php include('action.php');?>
+    
+    <script src="node_modules/@metamask/onboarding/dist/metamask-onboarding.bundle.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +16,7 @@
     <title>NFT marketplace</title>
 </head>
 <body>
+    <?php include('action.php');?> 
     <div class="Navbar11">
         <div class="logo">
         <object data="./assets/Logo.svg" type=""></object>
@@ -22,7 +28,10 @@
                 <li>Resources</li>
             </ul>
           </div>
-        <a href="www.google.com" class="wallet"><img src="./assets/connectwalletbtn.svg" alt=""></a>
+        <!-- <a href="www.google.com" class="wallet"> -->
+            <input class="wallet" type="button" id="connectWallet">
+            <!-- <img class="wallet" src="./assets/connectwalletbtn.svg" alt="" id="connectWallet"> -->
+        <!-- </a> -->
     </div>
     <div class="mainsec">
         <img class="mainbg" src="./assets/ballbg.svg" alt="">
@@ -31,13 +40,40 @@
             for both digital and physical assets.</h1>
         <div class="CTA">
             <div class="primaryCTA">
-                <button class="primary">CREATE</button>
+                <button class="primary" id="btnOpenForm" onclick="openForm()">CREATE</button>
             </div>
             <div class="secondaryCTA">
                 <button class="secondary">EXPLORE</button>
             </div>
         </div>
     </div>
+    
+
+    <div class="form-popup" id="myForm"> 
+        <!-- <form action="/action_page.php" class="form-container"> -->
+         <form class="form-container" method="POST">
+          <h1>Create NFT</h1>
+      
+          <label for="name"><b>NFT NAME</b></label><br>
+          <input type="text" placeholder="Enter name" name="name" id="nftName" required>
+            <br>
+          <label for="price"><b>Price</b></label><br>
+          <input type="number" placeholder="Enter Price" name="price" id="nftPrice" required>
+            <br>
+            
+            <label for="filename"> <b>Select NFT</b></label><br>
+            <input type="file" placeholder="Select nft" class="upload-file" name="filename" accept="image/*" id="nftImage" ><br>
+
+          <button type="button" class="btn" onclick="submitNFT()">Upload NFT</button><br>
+          <button type="button" class="btn-cancel" onclick="closeForm()">Close</button>
+        </form>
+      </div> 
+
+
+
+      
+
+
     <div class="hiddengem">
         <h1 class="hg">Hidden Gems</h1>
         <div class="hgcards">
@@ -115,5 +151,17 @@
     <div class="footer">
         <p>Footer is here</p>
     </div>
+
+
+    
+    <div class="alert" id="errorMessage">
+        
+        Error
+      </div> 
+
+      <div class="alertSuccess" id="successMessage">
+        
+        Success
+      </div> 
 </body>
 </html>
